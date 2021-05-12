@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+<h1>Student Registration!!!</h1>
+<!--form -key value of dictionary context,render form asaragraph tag-->
+<form action="" method="post">
+        {% csrf_token %}
+        <table class="mytable">{{form.as_table}}</table>
+    <div class="bttn"> <input type="submit" value="register" class="bt"></div>
+
+
+</form>
+</body>
+</html>

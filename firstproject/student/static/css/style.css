@@ -1,0 +1,32 @@
+body{
+background-color:pink;
+}
+
+.studhead {
+color:blue;
+text-align:center;
+}
+
+.mytable{
+position:relative;
+left:30%;
+
+
+
+}
+.bttn{
+position:relative;
+left:38%;
+top:90%;
+color:blue;
+}
+
+.bttn input{
+
+width:140px;
+}
+
+
+.box{
+width:500px
+}
